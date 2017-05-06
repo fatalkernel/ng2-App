@@ -1,0 +1,11 @@
+        <h2>Upcoming Angular 2 Courses</h2>
+        <hr>
+        <div class="row">
+        <div *ngFor="let eve of events" class="col-md-6">
+
+        <event-thumbnail (click)="thumbClikced(eve.name)"  [event]="eve"></event-thumbnail> 
+        <!--<event-thumbnail ></event-thumbnail>-->
+    
+        </div>
+        </div>
+    
