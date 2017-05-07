@@ -6,7 +6,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
     selector: 'events-app',
     template: `
     <nav-bar></nav-bar>
-   <events-list></events-list>
+   <router-outlet></router-outlet>
     `
 })
 
